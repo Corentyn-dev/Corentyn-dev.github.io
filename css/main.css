@@ -3612,4 +3612,23 @@ html[data-useragent*='rv:11.0'] .ss-go-top::after {
   display: none;
 }
 
+::-webkit-scrollbar {
+  width: 1rem;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #A1411F;
+  border-radius: 20px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(163, 66, 31, 0.6);
+}
+
 /*# sourceMappingURL=main.css.map */
